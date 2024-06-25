@@ -1,0 +1,8 @@
+.btn-fixed-size {
+  width: 40px; /* Ukuran lebar tombol tetap */
+  height: 40px; /* Ukuran tinggi tombol tetap */
+
+  padding: 0; /* Hapus padding default */
+  flex-shrink: 0; /* Mencegah tombol mengecil */
+  flex-grow: 0; /* Mencegah tombol membesar */
+}
