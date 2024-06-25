@@ -70,7 +70,7 @@ const Dashboard = ({ CloseSidebar }) => {
         }, 3000);
       }
       if (res.statusCode == 200) {
-        setOpenModalLogin(confirmSwal("Login Success!", res.message, true));
+        setOpenModalLogin(confirmSwal("Register Success!", res.message, true));
 
         setOpenModalLogin(false);
       }
